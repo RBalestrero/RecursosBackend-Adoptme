@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js",
-    "test": "mocha test/supertest.test.js"
+    "test": "mocha tests/adoption.test.js --exit"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +26,7 @@
   "devDependencies": {
     "@faker-js/faker": "^9.8.0",
     "chai": "^4.3.7",
-    "mocha": "^10.1.0"
+    "mocha": "^10.1.0",
+    "mongodb-memory-server": "^10.1.4"
   }
 }
